@@ -160,4 +160,79 @@ header{
     color: white;
 }
 
- 
+.productosCompra{
+    font-size: 17px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 450px;
+    height: 30%;
+    overflow-y: auto;
+    margin-top: 50px;
+}
+
+.productosCompra > div{
+    margin: 0px 45px;
+    padding: 20px 0px;
+    width: auto;
+    border-bottom: 1px dotted black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productosCompra::-webkit-scrollbar{
+    width: 7px;
+    background-color: #141c29;
+    border-radius: 5px;
+}
+
+.productosCompra::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 3px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.productosCompra img{
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.total{
+    z-index: 1;
+    display: flexbox;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 150px;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.total span{
+    font-weight: 300;
+}
+
+.contenedorCompra button{
+    z-index: 1;
+    background-color: #263143;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.contenedorCompra button:hover{
+    background-color: white;
+    color: black;
+}
