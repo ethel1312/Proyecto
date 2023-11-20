@@ -1,0 +1,52 @@
+
+#logo{
+    width: 170px;
+}
+/*Encabezado*/
+#busqueda{
+    border-radius: 30px;
+}
+#botonBusqueda{
+    background-color: #ed9f6b;
+    border-color: orange;
+}
+#imgEnc{
+    width: 20px;
+}
+#letraEnc{
+    font-size: 13px;
+}
+#barraEnc >li{
+    list-style: none;
+    border: 0.5px solid gray;
+    width: 132px;
+    text-align: center;
+}
+#barraEnc >li:hover{
+    background-color: #ed9f6b;
+}
+/*CUERPO*/
+section{
+    background-color: #f1ecc8;
+}
+#carrusel img{
+    height: 350px;
+}
+#carrusel{
+    width: 100%;
+}
+/*Pie de página*/
+footer{
+    background-color: #4f5524;
+}
+footer img{
+    width: 70px;
+}
+#redes{
+    margin-top: 25px;
+}
+#redes img{
+    width: 40px;
+    margin: 5px;
+}
+
