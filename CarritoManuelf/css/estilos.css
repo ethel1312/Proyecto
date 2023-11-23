@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+#enlaces{
+  font-family: 'Dancing Script', cursive;
+  font-size:25px ;
+}
+
+
+.tit{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+.titu{
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+}
+
+#titulo{
+  font-family: 'Pacifico', cursive;
+}
+
+#logo{
+  width: 50px;
+  padding-left: 1
+  5px;
+}
+
+#pan{
+  width: 95%;
+  height: auto;
+}
+#conten{
+  background-color: #FF8551;
+}
+
+.pa{
+  padding-top: 100%;
+  width: 100%;
+}
+
+.pr{ 
+  width: 200px;
+  height: auto;
+}
+
+.pr1{
+ margin-left: 10%;
+}
+
+#btn{
+  margin-top: 3%;
+  background-color: white;
+  margin-left:  10%;
+}
+
+.icon_f{
+  width: 60px;
+}
+
+.contene{
+  padding-top: 20%;
+  padding-left: 35%;
+  
+}
+
+#tienda{
+  background-color: green;
+  color: white;
+}
+
+.numero{
+  width: 35px;
+}
+.btns{
+  background-color: #FF8551;
+  padding-top: 5px;
+  margin-top: 8px;
+}
+
+.caru{
+  max-height: 30rem;
+}
+
+.contentB{
+  max-height: 30rem;
+}
+
+.prd{
+  width: 70%;
+  height: auto;
+}
+
+.item{
+  width: auto;
+  height: 100%;
+  margin: 2%;
+  
+}
+
+.tar{
+  margin: 2%;
+  border-radius: 5%;
+}
+
+.com{
+  margin-left:10%;
+}

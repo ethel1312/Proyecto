@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-XHqyaoC9aPYP+9axIQ/kMTFkUmaDluI+qGblsZ3Wck5cUp1RHn2kHhQrYczL/iakfUck8UqW5WzO6YrihJaxBQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+<body>
+
+    <!-- encabezado -->
+    <div   class="container py-3 bg-white ">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a href="index.html"><img  id="logo" class="py-3" src="img/panaderia.png" alt=""></a>
+                    <h1 id="titulo">  Panaderia CIX</h1>
+                    </ul>
+
+                    <div class="d-flex"> 
+                      <button type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#myModal">
+                        <img src="img/carro-de-la-compra.png" alt="">
+                        <span id="contador" class="badge text-bg-secondary"> </span>
+                      </button>
+                      <div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <!-- Contenido del modal -->
+                              <div class="modal-dialog ">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5 titu" id="staticBackdropLabel">¿Desea ir a las compras?</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="container text-center">
+                                      <div class="row align-items-start">
+                                        <div class="col">
+                                          Bienvenido/a, haz click en ir a mis productos, para ver tus productos seleccionados, caso contrario cancela. 
+                                        </div>                               
+                                        <div class="col">
+                                          <img id="pan_icon" src="img/un-pan.png" alt="">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                                    <a href="productos.html#tab"><button id="tienda" type="button" class="btn btn">Ir a mis productos</button> </a>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        
+                        <div class="dropdown">
+                        <img src="img/usuario-de-perfil.png" alt=" " class="btn btn-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Inicio de sesion </a></li>
+                          <li><a class="dropdown-item" href="#">Registrar Usuario</a></li>
+                        </ul>
+                    </div>    
+                         
+                    </div>
+
+
+                  </div>
+                </div>
+              </nav>
+
+            <nav>
+                <!-- CARRITO DE COMPRAS -->
+
+            </nav>
+      </div>        
+</div>  
+<div class="container">
+  <div class="row d-flex justify-content-between flex-row">
+    <div id="enlaces" class="col-2 " class="izquierdo">
+      <h4>Enlaces</h4>
+      <hr>
+        <a href="construccion.html" class="text-decoration-none text-black">Pan calientito</a>
+        <hr>
+        <a href="construccion.html" class="text-decoration-none text-black">Pan Horneadito</a>
+        <hr>
+        <a href="construccion.html" class="text-decoration-none text-black">Pan de Casa</a>
+        <hr>
+        <a href="construccion.html" class="text-decoration-none text-black">Pan Frances</a>
+        <hr>
+        <img id="pan" src="img/pan.png" alt="">
+    </div>
+    <div class="col-8" class="medio">
+      <div class="contentB">
+        <div class="row">
+          <div id="peq" class="col-2">
+            <div class="card mb-3">
+              <a href="#" class="btn-outline-*"><img src="img/pan_leche.png" style="width: 10rem;"></a>
+            </div>
+            <div class="card text-center mb-3 peque">
+              <a href="#" class="btn-outline-*"><img src="img/pan.png" style="width: 10rem;"></a>
+            </div>
+          </div>
+          <div  class="container col-9">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/carrusel_1.jpg" style="height: 30rem">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/carrusel_2.jpg" style="height: 30rem">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/carrusel_3.jpg" style="height: 30rem">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only text-warning"></span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only text-warning"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-4">
+          <div class="col pr1">
+            <div class="card mb-3 pr mr-2 pr1" style="max-width: 540px; margin-right: 15px;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title tit">Pan dulce</h5>
+                    <p class="card-text">Pan elaborado con los productos más frescos del mercado</p>
+                    <p class="card-text">S/1.00</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img class="pa" src="img/pan-de-dulce.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 mx-4 pr" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title tit">Pan de Leche</h5>
+                    <p class="card-text lett">Pan elaborado con los productos más frescos del mercado</p>
+                    <p class="card-text">S/2.00</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img class="pa" src="img/pan_leche.png" class="img-fluid rounded-start" alt="...">
+                </div>
+              </div>
+            </div>
+              
+          </div>
+          <div class="col mx-5">
+            <div class="card mb-3 pr" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title tit">Pan de molde</h5>
+                    <p class="card-text">Pan elaborado con los productos más frescos del mercado</p>
+                    <p class="card-text">S/1.50</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img class="pa" src="img/pan_2.jpg" class="img-fluid rounded-start" >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+ 
+    <div id="con" class="col-2" class="derecho">
+    <a href="index.html"><button type="button border-black" class=" btn btns text-black ">Inicio</button> </a>
+    <br>
+    <a href="productos.html" class="py-2"><button type="button border-black text-black" class=" btn btns" >Productos</button>  </a>
+    <br>
+    <a href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+      <button  type="button" class="btn btns text-black">Compra</button>
+    </a>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <!-- Contenido del modal -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 titu" id="staticBackdropLabel">¿Desea ir a las compras?</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container text-center">
+              <div class="row align-items-start">
+                <div class="col">
+                  Bienvenido/a, haz clic en "Ir a mis productos" para ver tus productos seleccionados, caso contrario cancela. 
+                </div>                               
+                <div class="col">
+                  <img id="pan_icon" src="img/un-pan.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button  type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            <button href="productos.html"  class="btn btn-primary">Ir a mis productos</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <br>
+    <div class="btn-group dropstart">
+      <button type="button" class="btn btns dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Proyectos
+      </button>
+      <ul class="dropdown-menu">
+        <a href="agendaV3/index.html" target="_blank" class="text-decoration-none text-black">Trabajo 01-Librera de contactos</a> 
+        <hr>
+        <a href="fantasmaV3/fantasma.html" target="_blank" class="text-decoration-none text-black">Trabajo 02-Pacman</a>
+        <hr>
+        <a href="paginaResponsiva/index.html" target="_blank" class="text-decoration-none text-black">Trabajo 03-Tienda Modals</a>
+      </ul>
+    </div>
+
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+    <!-- footer -->
+    
+    <div id="conten" class="container-fluid">
+
+        <footer class="text-center text-lg-start border border-white mt-xl-5 pt-4">
+        
+        <div class="container p-4">
+          
+          <div class="row">
+           
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Contactanos</h5>
+    
+              <ul class="list-unstyled mb-4">
+                <li>
+                  <a href="construccion.html" class="text-white">Direccion</a>
+                </li>
+                <li>
+                  <a href="construccion.html" class="text-white">Correo electronico</a>
+                </li>
+                <li>
+                  <a href="construccion.html" class="text-white">Asistente Virtual</a>
+                </li>
+              </ul>
+            </div>
+            
+    
+            
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4">Enlaces</h5>
+    
+              <ul class="list-unstyled ">
+                <li>
+                  <a href="construccion.html" class="text-white py">Terminos y Condiciones</a>
+                </li>
+                <li>
+                  <a href="construccion.html" class="text-white">Politica y Privaciodad</a>
+                </li>
+                <li>
+                  <a href="construccion.html" class="text-white">Sobre Nosostros</a>
+                </li>
+                <li>
+                  <a href="construccion.html" class="text-white">Preguntas Frecuentes</a>
+                </li>
+
+              </ul>
+            </div>
+            
+    
+            
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4text-cen">Redes sociales</h5>
+                <img class="icon_f" src="img/Facebook.png" alt="">
+                <img class="icon_f" src="img/youtuve.png" alt="">
+                <img class="icon_f" src="img/twet.png" alt="">
+                <img class="icon_f" src="img/snap.png" alt="">
+            
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <h5 class="text-uppercase mb-4"> Revista Semanal</h5>
+    
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+
+                <button id= "btn" type="submit" class="btn border-black btn-block">Subscribete</button>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+    
+        
+        <div class="text-center p-3 border-top border-white">
+          © 2023- Grupo 8
+        </div>
+        
+      </footer>
+      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous">
+</script>
+</body>
+
+</html>
